@@ -1,14 +1,12 @@
-import aboutImg from '/src/assets/about.jpg';
-
-import { ABOUT_TEXT } from "../constants";  // Assurez-vous que ABOUT_TEXT est bien défini
+import AboutImg from '/src/assets/about.jpg';
+import { ABOUT_TEXT } from "../constants";  
 import { motion } from "framer-motion"; 
 
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       {/* Titre de la section */}
-      <h1 className="my-20 text-center text-4xl">
-        About <span className="text-neutral-500">Me</span>
+      <h1 className="my-20 text-center text-4xl">About <span className="text-neutral-500">Me</span>
       </h1>
 
       {/* Contenu principal en deux colonnes */}
@@ -22,7 +20,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             {/* Assurez-vous que l'image existe et que son nom correspond */}
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl" src={AboutImg} alt="about" />
           </div>
         
         </motion.div>
