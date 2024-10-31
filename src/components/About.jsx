@@ -1,4 +1,5 @@
-import aboutImg from "../assets/about.jpg"; // Vérifiez que le chemin est correct
+import aboutImg from '/src/assets/about.jpg';
+
 import { ABOUT_TEXT } from "../constants";  // Assurez-vous que ABOUT_TEXT est bien défini
 import { motion } from "framer-motion"; 
 
